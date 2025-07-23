@@ -11,6 +11,7 @@ require (
 	github.com/crossplane/crossplane-runtime v1.15.1
 	github.com/crossplane/crossplane-tools v0.0.0-20230925130601-628280f8bf79
 	github.com/crossplane/upjet v1.2.4
+	github.com/fatih/color v1.16.0
 	github.com/go-logr/logr v1.4.1
 	github.com/go-openapi/runtime v0.28.0
 	github.com/golang-jwt/jwt/v4 v4.5.2
@@ -22,6 +23,7 @@ require (
 	github.com/muvaf/typewriter v0.0.0-20240614220100-70f9d4a54ea0
 	github.com/pkg/errors v0.9.1
 	github.com/samber/lo v1.47.0
+	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.9.0
 	github.com/vladimirvivien/gexe v0.2.0
 	golang.org/x/net v0.39.0
@@ -29,6 +31,7 @@ require (
 	golang.org/x/sync v0.13.0
 	gopkg.in/alecthomas/kingpin.v2 v2.4.0
 	gopkg.in/validator.v2 v2.0.1
+	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/api v0.29.1
 	k8s.io/apimachinery v0.29.1
@@ -64,7 +67,6 @@ require (
 	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
 	github.com/evanphx/json-patch/v5 v5.8.0 // indirect
 	github.com/fatih/camelcase v1.0.0 // indirect
-	github.com/fatih/color v1.16.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-jose/go-jose/v3 v3.0.4 // indirect
@@ -141,7 +143,6 @@ require (
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
-	github.com/spf13/cobra v1.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/tmccombs/hcl2json v0.3.3 // indirect
@@ -174,7 +175,6 @@ require (
 	google.golang.org/grpc v1.61.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 	k8s.io/apiextensions-apiserver v0.29.1 // indirect
 	k8s.io/component-base v0.29.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00 // indirect
